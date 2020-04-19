@@ -27,7 +27,7 @@ log_format = ("[%(asctime)s] {%(module)s - "
 
 log.basicConfig(
     level=log.INFO,
-    format=log_format
+    format=log_format,
     datefmt="%D %H:%M:%S",
 )
 
